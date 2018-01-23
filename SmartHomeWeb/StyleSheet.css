@@ -1,0 +1,136 @@
+body {
+    background-color: #40A46A;
+    background-image: url(smart-home.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+	font-family: 'Raleway', sans-serif;
+    
+}
+
+#first-menu-button{
+    margin-left: 5%;
+}
+
+
+
+
+
+
+/* menu button1 effects */
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.menu-buttons a {
+	position: relative;
+	display: inline-block;
+	margin: 10px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+	padding: 8px 0;
+}
+
+.menu-buttons a:hover {
+    color: #B8BAC1;
+}
+
+
+.menu-buttons a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: rgba(0,0,0,0.1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.menu-buttons a:hover::after,
+.menu-buttons a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+/* menu button2 effects */
+.menu-buttons {
+    margin: 10px, 10px, 1px, 10px;
+    width: 1330px;
+    height: 60px;
+    background-color: #40A46A;
+}
+nav{
+    position: fixed;
+    width: 1330px;
+}
+
+.login{
+    float: right;
+}
+.login-box{
+    float :  right;
+    display: none;
+    width: 1330px;
+}
+.box1 {
+    float: right;
+    width: 265px;
+    height: 105px;
+    /*background-color: #256882;*/
+    background-color: #1e4f33;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 60px;
+    font-family: 'Comic Sans MS';
+    font-size: small;
+    color: #B8BAC1;
+}
+.box1 tr td{
+    padding: 5px;
+}
+
+.nav-container{
+    height: 72px;
+    top: 0px;
+}
+
+.main-content {
+    padding: 50px;
+}
+
+input {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.submit-button{
+    background-color:  #40A46A;
+    box-shadow: none;
+    border-style: none;
+    width: 50px;
+    height:  25px;
+}
+/*-----------------------------------------------------------------------------------*/
+

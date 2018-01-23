@@ -1,0 +1,28 @@
+body {
+    background-image: url(Elegant_Background-6.jpg);
+    background-size: cover;
+}
+
+.welcome{
+    margin-left: 45%;
+}
+.container{
+    height: 580px;
+    width: fill-available
+}
+.left-section {
+    float: left;
+    height: 580px;
+    width: 50%;
+}
+.right-section {
+    float: right;
+    height: 580px;
+    width: 50%;
+}
+
+.requests-table {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
